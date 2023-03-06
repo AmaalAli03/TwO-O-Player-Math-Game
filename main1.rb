@@ -8,3 +8,15 @@
 # main,player,game,question
 # game has player 1,2 (current player aswell), question and everything else to run the game\
 
+require "./game"
+require "./players"
+require "./question"
+
+
+
+# game = Game.new
+game = Game.new("Amaal")
+game.playing 
+game.play
+# puts game.player_1.player_name
+# puts game.player_2.player_name
